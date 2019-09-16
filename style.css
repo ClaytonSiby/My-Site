@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.jumbotron{
+    height: 100vh;
+    background: url(images/bg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: orangered;
+
+}
+
+
+.profession{
+    color: rgb(24, 157, 161);
+}
+
+.social-icon{
+    margin: 0 1.1em;
+    font-size: 20px;
+}
+
+.designer{
+    font-weight: 900;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
