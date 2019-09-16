@@ -13,6 +13,7 @@
 }
 nav ul li a{
     color: orangered;
+    text-transform: uppercase;
 }
 
 .jumbotron{
