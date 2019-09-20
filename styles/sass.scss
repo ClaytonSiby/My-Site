@@ -3,11 +3,8 @@
 $h2Color :  rgb(27, 229, 236);
 
 
-
-
-
 .jumbotron{
-    background: url(/images/bg-img.jpg);
+    background: url(/images/green-leaf.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -44,5 +41,10 @@ nav ul li a{
 
 /* Body Styles */
 h2{
+    color: $h2Color;
+}
+
+.skill-icon{
+    font-size: 5vw;
     color: $h2Color;
 }

@@ -1,5 +1,5 @@
 .jumbotron {
-  background: url(/images/bg-img.jpg);
+  background: url(/images/green-leaf.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -36,6 +36,11 @@ nav ul li a {
 
 /* Body Styles */
 h2 {
+  color: #1be5ec;
+}
+
+.skill-icon {
+  font-size: 8rem;
   color: #1be5ec;
 }
 /*# sourceMappingURL=sass.css.map */
