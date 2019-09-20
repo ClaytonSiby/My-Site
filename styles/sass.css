@@ -1,0 +1,41 @@
+.jumbotron {
+  background: url(/images/bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #1be5ec;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: .8;
+  background: grey;
+}
+
+nav ul li a {
+  color: orangered;
+  text-transform: capitalize;
+}
+
+.profession {
+  color: #000100;
+}
+
+.social-icon {
+  margin: 0 1.1em;
+  font-size: 20px;
+  color: #fff;
+}
+
+.designer {
+  font-weight: 900;
+}
+
+/* Body Styles */
+h2 {
+  color: #1be5ec;
+}
+/*# sourceMappingURL=sass.css.map */

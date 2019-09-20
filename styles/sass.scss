@@ -1,14 +1,17 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+//variables
+
+$h2Color :  rgb(27, 229, 236);
+
+
+
+
+
 .jumbotron{
-    height: 80vh;
-    background: url(images/my-bg.jpg);
+    background: url(/images/bg-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    color: rgb(27, 229, 236);
+    color: $h2Color;
 }
 
 .navbar{
@@ -23,8 +26,6 @@ nav ul li a{
     color: orangered;
     text-transform: capitalize;
 }
-
-
 
 
 .profession{
@@ -43,11 +44,5 @@ nav ul li a{
 
 /* Body Styles */
 h2{
-    color: rgb(27, 229, 236);
-}
-
-#wrapper{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 5%;
+    color: $h2Color;
 }
