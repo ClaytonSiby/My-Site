@@ -1,46 +1,28 @@
-.jumbotron {
-  background: url(/images/green-leaf.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  color: #1be5ec;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.navbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  opacity: .8;
-  background: grey;
-}
-
-nav ul li a {
-  color: orangered;
-  text-transform: capitalize;
-}
-
-.profession {
-  color: #000100;
-}
-
-.social-icon {
-  margin: 0 1.1em;
-  font-size: 20px;
+html, body {
+  background: #0a1111;
+  font-family: sans-serif;
   color: #fff;
 }
 
-.designer {
-  font-weight: 900;
+#intro-container {
+  background: #0a1111;
+  color: #fff;
 }
 
-/* Body Styles */
-h2 {
-  color: #1be5ec;
-}
-
-.skill-icon {
-  font-size: 3vw;
-  color: #1be5ec;
+.me span {
+  padding: 10px 30px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  background: #0cb7e2;
+  color: black;
 }
 /*# sourceMappingURL=sass.css.map */
