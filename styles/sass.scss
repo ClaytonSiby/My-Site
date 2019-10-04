@@ -7,29 +7,35 @@ $h2Color :  rgb(27, 229, 236);
     margin: 0;
 }
 html, body{
-    background: rgb(10, 17, 17);
+    background-color: rgb(10, 17, 17);
     font-family: sans-serif;
     color: #fff;
 }
 
 #intro-container{
-    // // background: url(/images/green-leaf.jpg);
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // background-position: center center;
-    background:  rgb(10, 17, 17);
-    color: #fff;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
-.me span{
-    padding: 10px 30px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 0px;
-    line-height: 24px;
-    letter-spacing: 1px;
-    background: rgb(12, 183, 226);
-    color: black;
+.me{
+    & span{
+        padding: 10px 30px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        background: rgb(12, 183, 226);
+        color: black;
+    }
+}
+
+.card {
+    width: 100%;
+    box-shadow: 2px 2px 1px 0px rgb(12, 183, 226);
 }

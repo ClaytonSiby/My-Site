@@ -4,14 +4,22 @@
 }
 
 html, body {
-  background: #0a1111;
+  background-color: #0a1111;
   font-family: sans-serif;
   color: #fff;
 }
 
 #intro-container {
-  background: #0a1111;
-  color: #fff;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .me span {
@@ -24,5 +32,11 @@ html, body {
   letter-spacing: 1px;
   background: #0cb7e2;
   color: black;
+}
+
+.card {
+  width: 100%;
+  -webkit-box-shadow: 2px 2px 1px 0px #0cb7e2;
+          box-shadow: 2px 2px 1px 0px #0cb7e2;
 }
 /*# sourceMappingURL=sass.css.map */
