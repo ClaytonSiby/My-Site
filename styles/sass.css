@@ -10,7 +10,7 @@ html, body {
 }
 
 #intro-container {
-  height: 70vh;
+  height: 65vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,5 +38,11 @@ html, body {
   width: 100%;
   -webkit-box-shadow: 2px 2px 1px 0px #0cb7e2;
           box-shadow: 2px 2px 1px 0px #0cb7e2;
+}
+
+.skills span {
+  margin: 10px;
+  padding: 3px 4px;
+  border: 1px solid #0cb7e2;
 }
 /*# sourceMappingURL=sass.css.map */

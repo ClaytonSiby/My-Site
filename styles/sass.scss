@@ -13,7 +13,7 @@ html, body{
 }
 
 #intro-container{
-    height: 70vh;
+    height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,4 +38,12 @@ html, body{
 .card {
     width: 100%;
     box-shadow: 2px 2px 1px 0px rgb(12, 183, 226);
+}
+
+.skills{
+    & span{
+        margin: 10px;
+        padding: 3px 4px;
+        border: 1px solid rgb(12, 183, 226);
+    }
 }
