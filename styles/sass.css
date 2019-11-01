@@ -45,4 +45,19 @@ html, body {
   padding: 3px 4px;
   border: 1px solid #0cb7e2;
 }
+
+.each-icon .fa, .each-icon .fas {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 50px;
+  line-height: 100px;
+  font-size: 20px;
+  border-color: #1be5ec;
+}
+
+.each-icon .fa .fa-location-arrow::before, .each-icon .fas .fa-location-arrow::before {
+  content: "\f124";
+}
 /*# sourceMappingURL=sass.css.map */
