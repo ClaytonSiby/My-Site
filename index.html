@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Clayton Siby</title>
+    <title>ClaytonSiby/Personal Resume</title>
     <!-- local css styles. -->
     <link rel="stylesheet" href="styles/sass.css" />
     <!-- bootstrap4 -->
@@ -18,7 +18,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
     />
   </head>
-  <body style="background: rgb(10, 17, 17); color: gray;">
+  <body style="background: rgb(10,10,12); color: gray;">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
       <!-- my logo -->
       <a href="#" class="navbar-brand"
@@ -42,17 +42,16 @@
       >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="#home" class="nav-link m-2"> Home </a>
+            <a href="#" class="nav-link m-2"> Home </a>
           </li>
           <li class="nav-item">
             <a href="#about_me" class="nav-link m-2">About Me</a>
           </li>
-          <li class="nav-item"><a href="#" class="nav-link m-2">Blog</a></li>
           <li class="nav-item">
             <a href="#portifolio" class="nav-link m-2">Portifolio</a>
           </li>
           <li class="nav-item">
-            <a href="#my_skills" class="nav-link m-2">My Professional skills</a>
+            <a href="#favorites" class="nav-link m-2">My Favorites</a>
           </li>
           <li class="nav-item">
             <a href="#contact_me" class="nav-link m-2">Contact Me</a>
@@ -69,9 +68,13 @@
       <div class="row">
         <div class="col-sm-12 col-md-8 col-lg-8">
           <div class="me">
-            <span class="ml-5">Hi, I'm</span><br />
+            <span class="span m-5">Hi, I'm</span><br />
             <br />
-            <h2 class="ml-5">Clayton Siby</h2>
+             <h3 class="ml-5">Clayton The 
+
+              <span class="txt-type" data-wait="3000" data-words='["Developer", "Designer", "Creator"]'>
+              </span>
+            </h3>
           </div>
 
           <!-- contact details -->
@@ -84,6 +87,9 @@
               ><i class="fas fa-map-marker-alt"></i> 15 manhattan, forest drive,
               pineslopes, Sandton, South Africa.</span
             >
+            <br><br>
+           
+            <h4>Welcome to my website</h4>
           </div>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4 pl-5">
@@ -148,69 +154,92 @@
               lot.
             </p>
 
-            <p class="skills">
-              <span>HTML5</span>
-              <span>CSS-3</span>
-              <span>JavaScript</span>
-              <span>Bootstrap3</span>
-              <span>Bootstrap4</span>
-              <span>Reactjs</span>
-            </p>
+            <div class="container skills skills-media">
+              <li>HTML5</li>
+              <li>CSS-3</li>
+              <li>JavaScript</li>
+              <li>Bootstrap3</li>
+              <li>Bootstrap4</li>
+              <li>Reactjs</li>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Portifolio -->
-    <div class="container" id="portifolio">
+    <!-- Personal Favorites -->
+    <div class="container" id="favorites">
       <div class="row">
         <div class="col-lg-12 col-sm-12 col-md-12 text-center p-5">
           <div class="section-header">
-            <h2>My Portifolio.</h2>
+            <h2>My Personal Favorites</h2>
           </div>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4">
-          <div class="card bg-dark">
-            <img src="images/bg-img.jpg" class="img-fluid" alt="" />
-            <div class="card-body">
-              <h4 class="card-title">Some text here.</h4>
+          <div class="thumbnail">
+            <img src="images/soccer.jpg" class="img-fluid" alt="" />
+ 
+              <h4>Soccer my Game</h4>
               <p>
-                This a my first site which i created using pure HTML 5 and CSS3.
-                And now when its more of inspirational
+                Great fan and soccer player.
               </p>
-            </div>
           </div>
         </div>
 
         <div class="col-sm-12 col-md-4 col-lg-4">
-          <div class="card bg-dark">
-            <img src="images/bg-img.jpg" class="card-img-top" alt="" />
-            <div class="card-body">
-              <h4 class="card-title">Some text here.</h4>
-              <p class="card-text">
-                Here is another one of my sites that i have completed testing my
-                skills under freeCodeCamp.
+          <div class="thumbnail">
+            <img src="images/suit.jpg" class="img-fluid" alt="" style="height: 230px; width: 230px;"/>
+            
+              <h4>Gentleman</h4>
+              <p>
+                Not only do I have passion in writting code, I'm a sophisticated gentleman as well.
               </p>
-            </div>
           </div>
         </div>
 
         <div class="col-sm-12 col-md-4 col-lg-4">
-          <div class="card bg-dark">
-            <img src="images/bg-img.jpg" class="card-img-top" alt="" />
-            <div class="card-body">
-              <h4 class="card-title">Some text here.</h4>
-              <p class="card-text">
-                Hey there, so i have this awesome site which i created under the
-                freeCodeCamp projects and its awesome. check it out!
+          <div class="thumbnail">
+            <img src="images/chess (2).jpg" class="img-fluid" alt="" />
+              <h4>Chess Master</h4>
+              <p>
+               The only game that helps me think and relax at the same time.
               </p>
-            </div>
           </div>
         </div>
       </div>
     </div>
     <br /><br />
 
+    <!-- Services section -->
+
+   <div id="services" class="container text-center">
+
+    <h2>Services</h2>
+    <h4>What I'm good at</h4>
+    <br>
+
+    <div class="row slide slideanim">
+      <div class="col-sm-4">
+        <span style="color: rgb(0, 174, 255); font-size: 30px; "><i class="fab fa-html5"></i></span>
+        <h4>HTML</h4>
+        <p>Enthusiastic intermediate developer with excellent expertise in HyperText MarkUp Language.</p>
+      </div>
+
+      <div class="col-sm-4">
+        <span style="color: rgb(0, 140, 255); font-size: 30px;"><i class="fab fa-css3-alt"></i></span>
+        <h4>CSS</h4>
+        <p>Designing beautiful sites using Cascading StyleSheets, has made my developmet experiences so much more fun and proffessional.</p>
+      </div>
+
+      <div class="col-sm-4">
+        <span style="color:rgb(0, 204, 255); font-size: 30px;"><i class="fab fa-js-square"></i></span>
+        <h4>JavaScript</h4>
+        <p>I'm so much in Love with JavaScript Algorithms, because acquire critical thinking, which is good.</p>
+      </div>
+    </div>
+
+   </div>
+<br><br>
     <!-- Contact Section/ Form -->
     <div class="container" id="contact_me">
       <div class="contact">
@@ -260,7 +289,7 @@
 
             <div class="col-md-12 col-md-4 col-lg-4">
                 <div
-                  class="cl-address-footer-item shadow-1 fadeInUp"
+                  class="cl-address-footer-item shadow-1 fadeInUp p-3"
                 >
                   <div class="each-icon">
                     <i class="fa fa-phone"></i>
@@ -277,12 +306,12 @@
         </div>
       </div>
 
-      <div class="row mt-5 bg-dark p-5">
+      <div class="row mt-5 p-5">
         <div class="col-sm-12 col-md-6 col-lg-6">
           <form action="">
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6">
-                <label for="name">Name</label>
+                <label for="name"></label>
                 <input
                   type="text"
                   class="form-control"
@@ -292,7 +321,7 @@
               </div>
 
               <div class="col-sm-12 col-md-6 col-lg-6">
-                <label for="name">LastName</label>
+                <label for="name"></label>
                 <input
                   type="text"
                   class="form-control"
@@ -302,7 +331,7 @@
               </div>
 
               <div class="col-sm-12 col-md-12 col-lg-12">
-                <label for="name">Email</label>
+                <label for="name"></label>
                 <input
                   type="email"
                   class="form-control"
@@ -311,13 +340,13 @@
               </div>
 
               <div class="col-sm-12 col-md-12 col-lg-12 mt-3">
-                <label for="name">Send Me a Message</label>
+                <label for="name"></label>
                 <textarea
                   name=""
                   id=""
                   cols=""
                   rows=""
-                  class="form-control"
+                  class="form-control" style="background: black; border: 0;" placeholder="Enter Message here..."
                 ></textarea>
               </div>
               <br />
@@ -328,14 +357,14 @@
           </form>
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-sm-12 col-md-6 col-lg-6" >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.405251447628!2d28.019164715571463!3d-26.020293262842006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xce230256c56363e7!2sManhattan%2C%20Forest%20Drive!5e0!3m2!1sen!2sza!4v1572591712015!5m2!1sen!2sza"
             width="100%"
             height="100%"
             frameborder="0"
             style="border:0;"
-            allowfullscreen=""
+            allowfullscreen="" style="z-index: -10;"
           ></iframe>
         </div>
       </div>
@@ -358,6 +387,7 @@
     </footer>
 
     <!-- <div style="height: 20px;"></div> -->
+    <script src="index.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
